@@ -68,6 +68,7 @@ body {
 .emoji-container:active {
   transform: scale(0.92);
   background: #0000006f;
+  overflow: hidden;
 }
 .emoji-container:hover {
   filter: none;
@@ -77,4 +78,9 @@ body {
   font-weight: 600;
   font-size: larger;
   color: rgba(255, 127, 80, 0.708);
+  text-align: center;
+  padding: 10px 30px;
+  height: 100px;
+  /* background-color: #0000006f;
+  border-radius: 20px; */
 }
